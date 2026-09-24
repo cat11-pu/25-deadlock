@@ -1,0 +1,9 @@
+{
+  "waits": [
+    {"waiter": "t1", "holder": "t2", "since": 5},
+    {"waiter": "t2", "holder": "t3", "since": 7},
+    {"waiter": "t3", "holder": "t1", "since": 2},
+    {"waiter": "t4", "holder": "t5", "since": 9},
+    {"waiter": "t5", "holder": "t4", "since": 1}
+  ]
+}
