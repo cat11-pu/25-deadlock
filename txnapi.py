@@ -17,6 +17,9 @@ class Registry:
     def find_cycle(self):
         return self.graph.find_cycle()
 
+    def persist(self) -> bytes:
+        return self.graph.persist()
+
     def resolve(self) -> dict:
         return self.graph.resolve()
 
